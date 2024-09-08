@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.faqs p,
+.client-box button {
+  @apply text-lg text-center bg-gray-200 rounded-lg py-2 max-w-96
+}
+
+.menu-options li {
+  @apply flex flex-col items-center text-2xl justify-center
+}
+
+.menu-options li h2 {
+  @apply font-medium uppercase text-xs text-slate-400
+}

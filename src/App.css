@@ -21,3 +21,11 @@
 .menu-options li h2 {
   @apply font-medium uppercase text-xs text-slate-400
 }
+
+.footer-container section {
+  @apply flex justify-between px-2
+}
+
+.footer-container section ul {
+  @apply flex flex-col w-1/2
+}
